@@ -1,6 +1,5 @@
 package com.springframework.spring5webapp.domain;
 
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -30,6 +29,14 @@ public class Author {
 	public Author(String firstName, String lastName) {
 		this.firstName = firstName;
 		this.lastName = lastName;
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
 	}
 
 	public String getFirstName() {
